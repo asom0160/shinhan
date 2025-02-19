@@ -1,0 +1,45 @@
+.all > .third {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ebc3ce;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.third > h3 {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.third > h3 > span {
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.third > h3 > p {
+  padding-top: 30px;
+}
+.third > h3 > span > img {
+  width: 50px;
+  height: 40px;
+}
+.third > video {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 30px 500px;
+}
+.third > .btn3 {
+  padding: 20px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 50px;
+  border: none;
+  color: white;
+  background-color: #ef839d;
+  box-shadow: #d46784 4px 4px 0 0;
+}

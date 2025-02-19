@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "HSSaemaul-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSSaemaul-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(0%);
+}
+header > .head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+header > .head > .title {
+  font-size: 40px;
+
+  font-family: "HSSaemaul-Regular";
+}
+header > .head > ul {
+  padding: 5px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}

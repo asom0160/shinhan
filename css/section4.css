@@ -1,0 +1,45 @@
+.all > .four {
+  width: 100vw;
+  height: 150vh;
+  background-color: #f2d9a1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.four > h3 {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.four > h3 > span {
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.four > h3 > p {
+  padding-top: 30px;
+}
+.four > h3 > span > img {
+  width: 50px;
+  height: 40px;
+}
+.four > video {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 30px 500px;
+}
+.four > .btn {
+  padding: 20px 40px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 50px;
+  background-color: #f3b747;
+  box-shadow: #e3a536 4px 4px 0 0;
+}
